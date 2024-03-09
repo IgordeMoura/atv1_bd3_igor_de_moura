@@ -1,10 +1,12 @@
+drop database loja_etec;
+
 create database loja_etec;
 
 use loja_etec;
 
 #Tabelas _________________________________________________
 create table tbl_produto(
-	cod_prod int (10) unsigned auto_increment primary key,
+	cod_prod int (10) auto_increment primary key,
     nome varchar (500) not null,
     descricao text not null,
     preco decimal (10,2) not null
@@ -16,7 +18,7 @@ create table tbl_iten_pedido(
 );
 
 create table tbl_pedido(
-    cod_ped int (10) unsigned auto_increment primary key,
+    cod_ped int (10)  auto_increment primary key,
     data_ped varchar (10) not null
 );
 
@@ -56,6 +58,6 @@ select nome, descricao from tbl_produto where cod_prod < 10;
 #instrução para selecionar os campos nome e descrição da tbl_produto e renomea-los
 select nome as Produto, descricao as Detalhes from tbl_produto;
 
-drop database loja_etec;
+select * from tbl_iten_pedido;
 
 
