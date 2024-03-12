@@ -24,16 +24,16 @@ create table tbl_pedido(
 
 #Inserts _________________________________________________
 insert into tbl_produto (nome, descricao, preco)
-values ("produto1", "produto relacionado a queda de cabelo", 12.30),
-	   ("produto2", "tonico para cabelo", 16.99),
-	   ("produto3", "vitamina para cabelo", 8.00),
-	   ("produto4", "tonico para barba", 10.50),
-	   ("produto5", "creme para pentear", 23.30),
-	   ("produto6", "escova de cabelo", 5.00),
-	   ("produto7", "vitamina para barba", 12.99),
-	   ("produto8", "shampoo anti quedas", 18.25),
-	   ("produto9", "shampoo 2 em 1", 7.99),
-	   ("produto10", "mascara para hidratação", 13.50);
+values ("imecap hair", "produto relacionado a queda de cabelo", 12.30),
+	   ("Crescimento Rapunzel", "tonico para cabelo", 16.99),
+	   ("Lavitan", "vitamina para cabelo", 8.00),
+	   ("Sir Fausto", "tonico para barba", 10.50),
+	   ("Salão Line", "creme para pentear", 23.30),
+	   ("Escovão", "escova de cabelo", 5.00),
+	   ("Biotonico Fontura", "vitamina para barba", 12.99),
+	   ("Clear Men", "shampoo anti quedas", 18.25),
+	   ("Peaky Blinders", "shampoo 2 em 1", 7.99),
+	   ("Loreal Paris", "mascara para hidratação", 13.50);
        
 insert into tbl_pedido (data_ped)
 values ("30/02/2024"),
